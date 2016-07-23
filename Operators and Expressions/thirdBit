@@ -1,0 +1,6 @@
+function solve(args) {
+    var number = +args[0];
+    mask = 1;
+    var digit = (number >> 3) & mask;
+    console.log(digit)
+}

@@ -1,0 +1,7 @@
+function solve(args) {
+    var a = +args[0];
+    var b = +args[1];
+    var A = a*b;
+    var P = 2*(a+b);
+    console.log(A.toFixed(2) + ' ' + P.toFixed(2))
+}

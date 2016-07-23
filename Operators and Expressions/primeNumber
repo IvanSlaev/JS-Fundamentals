@@ -1,0 +1,24 @@
+function solve(args) {
+    var prime = Math.abs(+args[0]);
+    var message = true;
+    if (prime < 2){
+        message = false;
+
+    }
+    else{
+        for (var i = 2; i <= 100; i++){
+            var remainder = prime % i | 0;
+            if (i != prime){
+                if (remainder === 0){
+                    massage = false;
+                }
+            }
+        }
+    }
+    if (message == true){
+        console.log('true');
+    }
+    else{
+        console.log('false')
+    }
+}
